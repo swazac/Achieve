@@ -1,0 +1,16 @@
+.landing-page {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    align-items: center;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    padding: 1.5rem;
+    font-size: 3rem;
+}
+
+

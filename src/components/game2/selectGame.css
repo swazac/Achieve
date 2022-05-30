@@ -1,0 +1,55 @@
+
+/* The answer selected by the user */
+.selected {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* The list of options */
+.options {
+    margin: 0.15rem;
+    padding: 10px;
+    width: 100%;
+    background-color: #f5d72a;
+    color: black;
+    border-radius: 10px;
+}
+
+.options:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.button {
+    margin: 0.5rem;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.question {
+    font-size: 4vh;
+    color: #EC9B3B;
+    padding: 1rem 0rem;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+h3 {
+    padding: 0.5rem;
+}

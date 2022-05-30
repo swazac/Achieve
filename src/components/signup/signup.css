@@ -1,0 +1,9 @@
+.centered-signup {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    max-width: 150px;
+    padding-top: 15%;
+    font-size: 1.2rem;
+    text-align: center;
+}
