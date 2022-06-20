@@ -16,7 +16,7 @@ function App() {
       </div>
       <Routes>
         {/* <Route path="/" element={<Signup />} /> */}
-        <Route path="/" element={<Main />} />
+        <Route path="/Achieve" element={<Main />} />
         {/* <Route path="/choice" element={<Choice />} /> */}
         {/* <Route path="/game1" element={<DragAndDrop />} /> */}
         <Route path="/game2" element={<SelectGame />} />
