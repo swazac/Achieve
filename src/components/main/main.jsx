@@ -10,7 +10,7 @@ const Main = () => {
       <button
         className="btn btn-primary"
         onClick={() => {
-          navigate("/choice");
+          navigate("/game2");
         }}
       >
         Let's begin

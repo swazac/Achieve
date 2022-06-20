@@ -10,7 +10,7 @@ export default function Header() {
         <FaHome
           size={"1.5rem"}
           onClick={() => {
-            navigate("/main");
+            navigate("/");
           }}
         />
       </h3>

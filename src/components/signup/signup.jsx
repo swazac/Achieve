@@ -15,6 +15,7 @@ export default function Signup() {
 
   onAuthStateChanged(auth, (currentUser) => {
     setUser(currentUser);
+    console.log(user?.email)
   })
  
   const register = async () => {

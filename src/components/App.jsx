@@ -15,10 +15,10 @@ function App() {
         <Header />
       </div>
       <Routes>
-        <Route path="/" element={<Signup />} />
-        <Route path="/main" element={<Main />} />
-        <Route path="/choice" element={<Choice />} />
-        <Route path="/game1" element={<DragAndDrop />} />
+        {/* <Route path="/" element={<Signup />} /> */}
+        <Route path="/" element={<Main />} />
+        {/* <Route path="/choice" element={<Choice />} /> */}
+        {/* <Route path="/game1" element={<DragAndDrop />} /> */}
         <Route path="/game2" element={<SelectGame />} />
       </Routes>
 
